@@ -1,0 +1,888 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    background-color: #fbfbfdcc;
+    backdrop-filter: saturate(180%) blur(20px);
+    width: 100%;
+    height: 6vh;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    transition: all 0.5s;
+}
+
+.nav a {
+    color: black;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+.nav i {
+    font-size: 18px;
+}
+
+.nav .apple2,
+.nav .fa-bars {
+    display: none;
+}
+
+.responsive-menu {
+    display: none;
+}
+
+.navlist {
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffffffcc;
+    margin-top: 50px;
+    display: none;
+    z-index: 2;
+}
+
+.navlist-items {
+    margin-left: 230px;
+    background-color: #ffffffcc;
+    display: flex;
+}
+
+.navlist-items li {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.navlist-items .fstlinks {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.navlist-items p {
+    font-size: 12px;
+    color: grey;
+}
+
+.navlist-items .itemlist li {
+    font-size: 15px;
+}
+
+.navlist-items .itemlist a {
+    text-decoration: none;
+    color: black;
+}
+
+.hdfc {
+    text-align: center;
+    font-size: 15px;
+}
+
+.hdfc a {
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.hdfc a:hover {
+    text-decoration: underline;
+}
+
+.page1 {
+    background-color: #F8F6F8;
+    text-align: center;
+    margin-top: 10px;
+    height: 72vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.page1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.page1 a:hover {
+    text-decoration: underline;
+}
+
+.page2 {
+    background-color: #FAFAFA;
+    text-align: center;
+    margin-top: 30px;
+    height: 72vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.page2 h1 {
+    position: absolute;
+    font-size: 50px;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.page2 p {
+    position: absolute;
+    padding-top: 100px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.page2 .fl {
+    position: absolute;
+    color: #0066CC;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-right: 110px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.page2 .fl:hover {
+    text-decoration: underline;
+}
+
+.page2 .sl {
+    position: absolute;
+    color: #0066CC;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-left: 100px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.page2 .sl:hover {
+    text-decoration: underline;
+}
+
+.page2 img {
+    transform: scale(1.8);
+}
+
+.page3 {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+    height: 72vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.page3 h1 {
+    position: absolute;
+    font-size: 50px;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.page3 p {
+    position: absolute;
+    padding-top: 100px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.page3 .fl {
+    position: absolute;
+    color: #0066CC;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-right: 110px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.page3 .fl:hover {
+    text-decoration: underline;
+}
+
+.page3 .sl {
+    position: absolute;
+    color: #0066CC;
+    font-size: 20px;
+    padding-top: 150px;
+    padding-left: 120px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.page3 .sl:hover {
+    text-decoration: underline;
+}
+
+.page3 img {
+    transform: scale(1.1);
+}
+
+.gridone {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.boxone {
+    background-color: #000000;
+    background-image: url(promo_apple_event_september__c1zbjahmv18i_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 49%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.boxone h1 {
+    color: white;
+    margin-top: 400px;
+    font-size: 40px;
+}
+
+.boxone p {
+    color: white;
+    font-size: 20px;
+}
+
+.boxone a {
+    color: #2996FD;
+    text-decoration: none;
+}
+
+.boxone a:hover {
+    text-decoration: underline;
+}
+
+.boxtwo {
+    background-color: #000000;
+    background-image: url(promo_iphone14pro_spring__c7pyovk04j2a_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 49%;
+    text-align: center;
+}
+
+.boxtwo h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.boxtwo p {
+    color: white;
+    font-size: 20px;
+}
+
+.boxtwo a {
+    color: #2996FD;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.boxtwo a:hover {
+    text-decoration: underline;
+}
+
+.gridtwo {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75vh;
+    margin-top: 10px;
+}
+
+.boxthree {
+    background-color: #000000;
+    background-image: url(promo_ipadpro_refresh__evi9utuixwuq_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+}
+
+.boxthree h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.boxthree p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.boxthree a {
+    color: #2996FD;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.boxthree a:hover {
+    text-decoration: underline;
+}
+
+.boxfour {
+    background-color: #000000;
+    background-image: url(promo_apple_watch_series_8_spring__d9hfvufh7hyu_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+}
+
+.boxfour img {
+    margin-top: 50px;
+    height: 10%;
+}
+
+.boxfour p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.boxfour a {
+    color: #2996FD;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.boxfour a:hover {
+    text-decoration: underline;
+}
+
+.gridthree {
+    display: flex;
+    justify-content: space-evenly;
+    height: 75vh;
+    margin-top: 10px;
+}
+
+.boxfive {
+    background-color: #FBFBFD;
+    background-image: url(iphone_tradein_promo__d5au3rkw5kuq_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+}
+
+.boxfive img {
+    margin-top: 50px;
+}
+
+.boxfive p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+
+.boxfive a {
+    color: #2996FD;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.boxfive a:hover {
+    text-decoration: underline;
+}
+
+.boxsix {
+    background-color: #000000;
+    background-image: url(promo_airpods_pro_avail__gaxggskofx6y_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 49%;
+    height: 100%;
+    text-align: center;
+}
+
+.boxsix h1 {
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.boxsix p {
+    color: white;
+    font-size: 20px;
+}
+
+.boxsix a {
+    color: #2996FD;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.boxsix a:hover {
+    text-decoration: underline;
+}
+
+#demo {
+    margin-top: 10px;
+}
+
+.carousel .carousel-indicators button {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+}
+
+.footer {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.para {
+    background-color: #F5F5F7;
+    width: 70%;
+    margin-top: 20px;
+    border-bottom: 1px solid silver;
+}
+
+.para p {
+    color: grey;
+    font-size: 12px;
+}
+
+.para a {
+    color: black;
+}
+
+.footertwo {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ulist {
+    margin-top: 30px;
+}
+
+.ulist li {
+    list-style-type: none;
+}
+
+.ulist a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.ulist a:hover {
+    text-decoration: underline;
+}
+
+#listheading {
+    font-size: 11px;
+}
+
+.ulist2 {
+    margin-top: 30px;
+}
+
+.ulist2 li {
+    list-style-type: none;
+}
+
+.ulist2 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.ulist2 a:hover {
+    text-decoration: underline;
+}
+
+#listheading {
+    font-size: 11px;
+}
+
+.ulist3 {
+    margin-top: 30px;
+}
+
+.ulist3 li {
+    list-style-type: none;
+}
+
+.ulist3 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.ulist3 a:hover {
+    text-decoration: underline;
+}
+
+#listheading {
+    font-size: 11px;
+}
+
+.ulist4 {
+    margin-top: 30px;
+}
+
+.ulist4 li {
+    list-style-type: none;
+}
+
+.ulist4 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.ulist4 a:hover {
+    text-decoration: underline;
+}
+
+#listheading {
+    font-size: 11px;
+}
+
+.ulist5 {
+    margin-top: 30px;
+}
+
+.ulist5 li {
+    list-style-type: none;
+}
+
+.ulist5 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.ulist5 a:hover {
+    text-decoration: underline;
+}
+
+#listheading {
+    font-size: 11px;
+}
+
+.footer3 {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+}
+
+.para-container {
+    width: 70%;
+    font-size: 12px;
+    border-bottom: 1px solid silver;
+    color: grey;
+}
+
+.footer4 {
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+}
+
+.foot4-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 167px;
+    margin-top: 10px;
+}
+
+.copyr p {
+    font-size: 12px;
+    color: gray;
+}
+
+.footerlinks {
+    font-size: 12px;
+    display: flex;
+    gap: 40px;
+}
+
+.footerlinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerlinks a:hover {
+    text-decoration: underline;
+}
+
+.ind a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.ind a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* media queries */
+
+@media (max-width: 821px) {
+    .nav {
+        width: 100vw;
+        height: 10vh;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .nav a:nth-child(n+1):nth-child(-n+12) {
+        display: none;
+    }
+
+    .nav .fa-apple,
+    .nav .fa-bars {
+        display: block;
+        font-size: 2vw;
+    }
+
+    .nav .fa-apple {
+        margin-right: 70vw;
+    }
+
+    .responsive-menu {
+        padding-left: 2vw;
+        display: none;
+    }
+
+    .responsive-menu i {
+        font-size: 4vw;
+        margin-left: 94.5%;
+    }
+
+    .responsive-menu a {
+        display: block;
+        margin: 2vw;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.703);
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    .footertwo {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .page2 img {
+        transform: scale(0.8);
+    }
+
+    .page2 img {
+        transform: scale(0.8);
+    }
+}
+
+
+/* phone-media-query */
+
+@media (max-width: 600px) {
+    .nav {
+        width: 100vw;
+        height: 5vh;
+        overflow: hidden;
+        display: flex;
+        gap: 10.5px;
+        padding: 0px 15px;
+    }
+
+    .nav a:nth-child(n+1):nth-child(-n+12) {
+        display: none;
+    }
+
+    .nav .fa-apple,
+    .nav .fa-bars {
+        display: block;
+        font-size: 5vw;
+    }
+
+    .nav .fa-apple {
+        margin-left: 4px;
+    }
+
+    .responsive-menu {
+        padding-left: 2vw;
+        display: none;
+        margin-bottom: 50px;
+    }
+
+    .responsive-menu i {
+        font-size: 6vw;
+        margin-left: 94.5%;
+    }
+
+    .responsive-menu a {
+        display: block;
+        margin: 2vw;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.703);
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    .page1 video {
+        object-fit: contain;
+    }
+
+    .footertwo {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .page2 img {
+        transform: scale(0.8);
+    }
+
+    .page2 img {
+        transform: scale(0.8);
+    }
+
+    .page1 {
+        height: 27vh;
+    }
+
+    .page2,
+    .page3 {
+        height: 50vh;
+    }
+
+    .page2 h1,
+    .page3 h1 {
+        font-size: 30px;
+    }
+
+    .page2 p,
+    .page3 p {
+        font-size: 15px;
+        padding-top: 90px;
+    }
+
+    .page2 .fl,
+    .page2 .sl {
+        font-size: 14px;
+        padding-top: 130px;
+    }
+
+    .page3 .fl,
+    .page3 .sl {
+        font-size: 14px;
+        padding-top: 130px;
+    }
+
+    .page2 img {
+        transform: scale(0.6);
+    }
+
+    .page3 img {
+        transform: scale(0.6);
+    }
+
+    .gridone,
+    .gridtwo,
+    .gridthree {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gridone .boxone {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .gridone .boxtwo {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .gridtwo,
+    .gridthree {
+        height: 170vh;
+    }
+
+    .gridtwo .boxthree {
+        width: 100%;
+        height: 50%;
+    }
+
+    .gridtwo .boxfour {
+        width: 100%;
+        height: 50%;
+    }
+
+    .gridthree .boxfive {
+        width: 100%;
+    }
+
+    .boxfive p {
+        margin-top: 20px;
+    }
+
+    .gridthree .boxsix {
+        width: 100%;
+    }
+
+    .footer4 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+
+    .foot4-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footerlinks{
+        display: flex;
+        flex-direction: column;
+    }
+}
